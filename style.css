@@ -72,7 +72,7 @@ body{
     height: 10vh;
     width: 12vw;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .link_formatat:hover{
     background: rgba(0,0,50,0.6);
