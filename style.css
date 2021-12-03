@@ -4,7 +4,7 @@
 }
 body{
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 #text-animat1{
     position: absolute;
@@ -129,9 +129,78 @@ section{
 }
 section h1{
     text-align: center;
+    font-size: 3vw;
 }
+.container-carduri{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height :50%;
+    width: 80%;
+    top : 50%;
+    left: 20%;
+    column-gap: 5%;
+}
+.container-softskills{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    height: 80%;
+    width: 45%;
+    top:10%;
+    left:10%;
+    border: 1px dotted darkviolet;
+    background-color: whitesmoke;
+    font-size: 1vw;
+}
+.container-hardskills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80%;
+    width: 45%;
+    top :10%;
+    left: 50%;
+    border: 1px dotted darkred;
+    background-color: whitesmoke;
+    font-size: 1vw;
+}
+.titlu-softskill{
+    border-bottom:4px solid lightskyblue;
+    width: 50%;
+    border-radius: 15px;
+    font-size: 1vw;
+}
+.container-softskills:hover > .titlu-softskill{
+    animation-name: animatie-softskills;
+    animation-duration: 1.5s;
+}
+.titlu-hardskill{
+    border-bottom:4px solid blue;
+    width: 50%;
+    border-radius: 15px;
+    font-size: 1vw;
+}
+.container-hardskills:hover > .titlu-hardskill{
+    animation-name: animatie-hardskills;
+    animation-duration: 1s;
+}
+
+@keyframes animatie-softskills{
+    from {width:50%}
+    to {width:90%}
+}
+@keyframes animatie-hardskills{
+    from {width:50%}
+    to {width:90%}
+}
+
 #general{
-    background: rgb(22, 99, 99);
+    background: greenyellow;
 }
 #proiecte{
     background: rgb(50, 57, 125);
