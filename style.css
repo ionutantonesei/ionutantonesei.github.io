@@ -60,7 +60,7 @@ a:hover{
     scroll-behavior: smooth;
 }
 #fundal{
-    background: url(images/background.jpg);
+    background: url(images/background.webp);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -68,20 +68,22 @@ a:hover{
 }
 #logo{
     position: fixed;
-    top: 10px;
-    left: 10px;
+    top: 5%;
+    left: 5%;
     height: min(10vh , 20%);
-    width: min(15vh , 20%);
+    width: min(20vh , 20%);
 }
 #meniu1{
     list-style-type: none;
     position: fixed;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    column-gap: 5%;
     top: 5%;
-    left: 20%;
+    left: 35%;
     height: 10%;
     width: 70%;
     font-size: clamp(1vw + .5rem , 0.7rem , 1rem);
@@ -93,25 +95,21 @@ a:hover{
     display: flex;
     background: rgba(0,0,50,0.5);
     height: 10vh;
-    align-items: center;
 }
 #element2{
     display: flex;
     background: rgba(0,0,50,0.5);
     height: 10vh;
-    align-items: center;
 }
 #element3{
     display: flex;
     background: rgba(0,0,50,0.5);
     height: 10vh;
-    align-items: center;
 }
 #element4{
     display: flex;
     background: rgba(0,0,50,0.5);
     height: 10vh;
-    align-items: center;
 }
 .link_formatat{
     display: flex;
@@ -211,28 +209,28 @@ section h1{
 }
 
 #general{
-    background: url(images/background.jpg);
+    background: url(images/background.webp);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
 }
 #proiecte{
-    background: url(images/background.jpg);
+    background: url(images/background.webp);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
 }
 #poze{
-    background: url(images/background.jpg);
+    background: url(images/background.webp);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
 }
 #contact{
-    background: url(images/background.jpg);
+    background: url(images/background.webp);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
