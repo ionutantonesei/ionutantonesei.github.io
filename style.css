@@ -136,13 +136,15 @@ section{
 }
 section h1{
     text-align: center;
-    font-size: 3vw;
+    font-size: clamp(2vw + .5rem , 1.7rem , 2rem);
+    color: lightyellow;
 }
 .container-carduri{
     display: flex;
     align-items: center;
     justify-content: center;
-    height :50%;
+    flex-wrap: wrap;
+    height :60%;
     width: 80%;
     top : 50%;
     left: 20%;
@@ -154,12 +156,12 @@ section h1{
     align-items:center;
     justify-content: center;
     text-align: center;
-    height: 80%;
+    height: 100%;
     width: 45%;
     top:10%;
     left:10%;
     background: linear-gradient(hsl(0 0% 0% / 0) , hsl(0 0% 0% /0.7));
-    font-size: 1vw;
+    font-size: clamp(1vw + .5rem , 0.7rem , 1rem);
     color:lightskyblue;
 }
 .container-hardskills{
@@ -168,12 +170,12 @@ section h1{
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 80%;
+    height: 100%;
     width: 45%;
     top :10%;
     left: 50%;
     background: linear-gradient(hsl(0 0% 0% / 0) , hsl(0 0% 0% / 0.7));
-    font-size: 1vw;
+    font-size: clamp(1vw + .5rem , 0.7rem , 1rem);
     color:lightgreen;
 }
 .titlu-softskill{
